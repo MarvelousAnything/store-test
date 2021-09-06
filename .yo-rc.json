@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["invoice", "notification", "product", "store"],
+    "directoryPath": "./",
+    "clusteredDbApps": ["notification"],
+    "serviceDiscoveryType": false,
+    "jwtSecretKey": "YzYyZWYyNzFhZjIzNmJlOGFhNGY3ZWM2ZjkxOGZmNDZhYTc4MTJlYzFkMzhjNjY3YjJlZTVhY2VmYTQ2ODA5NGFkZDYxNDQyNWVlMjQ2YzA4YWQ2NTUzODk5NGQwMzViOWQxMg==",
+    "dockerRepositoryName": "marvelousanything",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "jhipster",
+    "kubernetesUseDynamicStorage": true,
+    "kubernetesStorageClassName": "",
+    "ingressDomain": "143.244.200.42.nip.io",
+    "monitoring": "prometheus",
+    "istio": true
+  }
+}

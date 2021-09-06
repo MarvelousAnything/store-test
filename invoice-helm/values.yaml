@@ -1,0 +1,9 @@
+mysql:
+  enabled: true
+  mysqlDatabase: invoice
+  mysqlAllowEmptyPassword: true
+  podAnnotations:
+    sidecar.istio.io/inject: "false"
+  initializationFiles:
+    grant.sql: |-
+      grant all privileges on *.* to root@'%' identified by '' with grant option;
